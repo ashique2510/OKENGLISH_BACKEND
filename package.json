@@ -1,0 +1,29 @@
+{
+  "name": "ok-english",
+  "version": "1.0.0",
+  "description": "English Learning App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Ashique Mohammed C",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.1",
+    "razorpay": "^2.8.3",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "nodemon": "^2.0.20"
+  }
+}
